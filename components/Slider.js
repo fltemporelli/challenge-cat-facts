@@ -6,7 +6,7 @@ const Slider = ({ facts }) => {
 
   useEffect(() => {
     const interval = setInterval(() => { 
-      if (count < 20) {
+      if (count < 19) {
         setCount((c) => c + 1) 
       }
       else {

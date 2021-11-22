@@ -8,7 +8,7 @@ export default function Home({facts}) {
   return (
     <div>
       <Head>
-        <title>Did you know?</title>
+        <title>The Wise Cat</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
@@ -27,7 +27,7 @@ export default function Home({facts}) {
   )
 }
 
-export async function getStaticProps(context) {
+export async function getStaticProps() {
   const res = await fetch('https://catfact.ninja/facts?max_length=100&limit=20', { method: 'GET' })
 	const json = await res.json()
   const facts = await json.data

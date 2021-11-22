@@ -5,7 +5,6 @@ body {
   font-family: 'Puppies Play', cursive;
   color: white;
   background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(28,5,38,1) 56%, rgba(138,21,191,1) 100%);
 }
 
 a {
