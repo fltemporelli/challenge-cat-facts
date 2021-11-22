@@ -12,7 +12,7 @@ const Slider = ({ facts }) => {
       else {
         setCount(0);
       }
-    }, 1000);
+    }, 6000);
   
     return () => {
       clearInterval(interval);
@@ -21,7 +21,7 @@ const Slider = ({ facts }) => {
 
   return (
     <div className={styles.slide}>
-      {facts[count].fact}
+      <p>{facts[count].fact}</p>
     </div>
   )
 }
