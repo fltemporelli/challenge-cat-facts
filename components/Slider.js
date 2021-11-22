@@ -10,7 +10,7 @@ const Slider = ({ facts }) => {
         setCount((c) => c + 1) 
       }
       else {
-        setCount(0);
+        setCount(0);  
       }
     }, 6000);
   

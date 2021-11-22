@@ -3,7 +3,7 @@ import styles from './CatEyes.module.css'
 const CatEyes = () => (
 	<div className={styles.image}>
 		<svg version="1.1" id="cat-eyes" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-		viewBox="0 0 1920 620" xmlSpace="preserve">
+		viewBox="-35 0 1920 620" xmlSpace="preserve">
 		  <filter id="f1" x="0" y="0">
       	<feGaussianBlur in="SourceGraphic" stdDeviation="4" />
     	</filter>

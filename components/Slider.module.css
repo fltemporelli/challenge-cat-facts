@@ -4,8 +4,8 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	box-sizing: border-box;
+	align-items: center;
 	margin: 0 auto;
 	padding: 0 100px;
 }
@@ -27,5 +27,11 @@
 	}
 	100% {
 		opacity: 0;
+	}
+}
+
+@media (max-width: 720px) {
+	.slide p {
+		font-size: 32px;
 	}
 }
